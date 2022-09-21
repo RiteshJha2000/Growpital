@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Baloo+Bhai+2:wght@600&family=Fruktur&family=Merriweather:ital,wght@1,300&family=Ubuntu:wght@500&family=Varela+Round&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.nav-link{
+    color: white;
+    margin: 10px;
+    margin-left: 112px;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bold;
+}
+.nav-link:hover{
+    color: gray;
+}
+
+.multicolor{
+    text-align: center;
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Varela Round', sans-serif;
+    background: linear-gradient(to left,
+            #f08904,
+            #f0d615,
+            #caff00,
+            #b3eb74,
+            #7de787,
+            #7de787,
+            #7dd9e7);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.multicolor:hover{
+    color: transparent;
+}
+.icon{
+    margin: 0 20px;
+}

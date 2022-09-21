@@ -1,0 +1,187 @@
+ @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Baloo+Bhai+2:wght@600&family=Fruktur&family=Merriweather:ital,wght@1,300&family=Ubuntu:wght@300;400&family=Varela+Round&display=swap');
+
+
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.background{
+    padding-bottom: 20px;
+    height: 130vh;
+}
+.background-img{
+    background: rgba(0, 0, 0, 0.7) url('./img/Screenshot\ 2022-09-16\ 155530.jpg');
+    background-blend-mode: darken;
+    -webkit-background-size:cover;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    position: fixed;
+    left: 0%;
+    right: 0%;
+    z-index: -1;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+}
+.mycard{
+    z-index: 2;
+    border: 2px solid black;
+    width: 450px;
+    position: absolute;
+    /* top: 10%; */
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%,20%);
+    background: #302c3c;
+    padding: 5px 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 8px #1f1b1b;
+
+    /* -moz-box-shadow: 10px 10px 5px 5px gray;
+    -webkit-box-shadow: 10px 10px 5px gray; */
+    /*-moz-border-radius:25px;
+    -webkit-border-radius:25px;
+    border-radius:25px; */
+}
+
+
+.card-body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding: 0px 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.balance{
+    line-height: 10px;
+}
+.total{
+    font-size: 30px;
+    font-weight: bolder;
+    line-height: 15px;
+    color: white;
+}
+.basic{
+    font-size: 15px;
+    color: gray;
+}
+
+
+.alert-icon{
+    height: 50px;
+    width: 100px;
+    filter: invert(1);
+}
+.myalert{
+    margin: 15px;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.myalert h2{
+    font-size: 20px;
+    color: white;
+}
+.myalert p{
+    color: grey;
+    line-height: 10px;
+}
+
+
+.info{
+    border: 1px solid gray;
+    margin: 0px 20px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.sender p{
+    font-size: 10px;
+    line-height: 0px;
+    font-family: 'Ubuntu', sans-serif;
+    color: grey;
+}
+.sender h2{
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+}
+.sender{
+    display: flex;
+    justify-content: space-between;
+}
+
+.receiver{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.receiver h2{
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+}
+.receiver p{
+    font-size: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 0px;
+    color: grey;
+}
+
+
+.id{
+    margin-top: 30px;
+}
+.id p{
+    font-size: 15px;
+    line-height: 5px;
+    color: gray;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+.id span{
+    font-size: 15px;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+
+.btns{
+    display: flex;
+    /* margin: 20px;  */
+    margin-top: 20px;
+    margin-bottom: 10px;
+    justify-content: space-around;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bolder;
+}
+.btn1{
+    padding: 10px 40px;
+    background-color: #ebac02;
+    border-radius: 25px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bolder;
+}
+.btn2{
+    padding: 10px 40px;
+    background-color: #242632;
+    border-radius: 25px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bolder;
+    background-blend-mode: darken;
+
+}
+
+@media only screen and (max-Width:415px){
+    .mycard{
+        width: 310px;
+    }
+    .id p{
+        line-height: 20px;
+    }
+    .background{
+        height: 150vh;
+    }
+}
